@@ -1,27 +1,27 @@
 body {
-  background: black url(../images/sketch.jpg) no-repeat center;
-  background-size: cover;
+  background: rgb(20, 19, 19) url(../images/sketch.jpg) no-repeat center;
+  background-size: auto;
 }
 
 #wall {
   position: relative;
-  margin: 40px auto;
-  width: 980px;
-  height: 622px;
+  margin: 50px auto;
+  width: 870px;
+  height: 553px;
   background: url(../images/wall.jpg) no-repeat center;
-  -moz-box-shadow: 15px 15px 47px lime, -15px -15px 47px aqua;
-  -webkit-box-shadow: 15px 15px 47px lime, -15px -15px 47px aqua;
-  box-shadow: 15px 15px 47px lime, -15px -15px 47px aqua;
-  border: 15px solid white;
-  border-bottom: 60px solid white;
+  -moz-box-shadow: 15px 15px 47px rgb(37, 190, 37), -15px -15px 47px rgb(13, 163, 163);
+  -webkit-box-shadow: 15px 15px 47px rgb(19, 141, 19), -15px -15px 47px rgb(18, 202, 202);
+  box-shadow: 15px 15px 47px rgb(23, 158, 23), -15px -15px 47px rgb(2, 233, 233);
+  border: 15px solid rgb(240, 236, 236);
+  border-bottom: 60px solid rgb(248, 244, 244);
 }
 
 .tag-1, #tag-2, #tag-3, #tag-4, #tag-5, #tag-6, #tag-7 {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 980px;
-  height: 622px;
+  top: 0%;
+  left: 0%;
+  width: 800px;
+  height: 525px;
 }
 
 .tag-1 {
